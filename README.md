@@ -9,7 +9,7 @@ The system decouples request submission from backend processing to handle burst 
 
 ## Architecture
 
-![Architecture](images/architecture.png)
+![Architecture](images/architecture.jpg)
 
 Flow:
 API Gateway → Lambda (createOrder) → SQS → Lambda (processOrder) → DynamoDB
@@ -45,10 +45,11 @@ API Gateway → Lambda (createOrder) → SQS → Lambda (processOrder) → Dynam
 
 ## Evidence
 
-![SQS](images/sqs.png)
-![Lambda](images/lambda.png)
-![DynamoDB](images/dynamodb.png)
-![CloudWatch](images/cloudwatch.png)
+![SQS](images/sqs.jpg)
+![Lambda](images/lambda1.jpg)
+![Lambda](images/lambda2.jpg)
+![DynamoDB](images/dynamodb.jpg)
+![CloudWatch](images/cloudwatch.jpg)
 
 ---
 
